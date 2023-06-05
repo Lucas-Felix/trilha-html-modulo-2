@@ -1,38 +1,113 @@
-html, body {
-    margin: 0;
+html,
+body {
+  margin: 0;
 }
 body {
-    background-color: #f1f1f1;
-    display: flex;
-    justify-content: center;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper {
-    width: 1200px;
-    display: flex;
-    margin: 0 auto;
-    background-color: aquamarine;
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  background-color: aquamarine;
 }
 .main {
-    display: flex;
-    flex-flow: column;
-    width: 85%;
+  display: flex;
+  flex-flow: column;
+  width: 85%;
 }
 .menu {
-    width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
+  width: 15%;
+  background-color: #03b0c1;
+  padding: 10px 20px 0px;
+  color: white;
 }
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+  background-color: White;
+  min-height: 150px;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
 }
 .content {
-    background-color: white;
-    min-height: 300px;
-    padding: 20px;
+  background-color: #063d54;
+  min-height: 300px;
+  padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+  background-color: #063d54;
+  min-height: 150px;
+}
+p {
+  text-align: left;
+  font-size: 14px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h5 {
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  padding: 20px;
+  background: #3b5998;
+  color: White;
+}
+
+.fa-twitter {
+  padding: 20px;
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  padding: 20px;
+  background: #e53935;
+  color: white;
+}
+
+.fa-instagram {
+  padding: 20px;
+  background: #ec407a;
+  color: white;
+}
+
+.fa-youtube {
+  padding: 20px;
+  background: red;
+  color: white;
+}
+
+.fa-linkedin {
+  padding: 20px;
+  background: #3949ab;
+  color: white;
+}
+
+.Logo_rodape {
+  justify-content: center;
+  text-align: center;
+}
+a:link {
+  color: white;
 }
