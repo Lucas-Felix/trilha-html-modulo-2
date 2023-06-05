@@ -22,9 +22,9 @@
     <div class="menu">
       <ul list style type="square">
         <li><a href="#">Página Principal</a></li><br>
-        <li><a href="#">Sobre a clínica</a></li><br>
-        <li><a href="#">Horário de Atendimento</a></li><br>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#content">Sobre a clínica</a></li><br>
+        <li><a href="#horario">Horário de Atendimento</a></li><br>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </div>
 
@@ -39,18 +39,62 @@
 
         <!-- Texto sobre a clinia -->
         <h1>Tua Saúde</h1>
-            <p>é uma clínica médica dedicada ao cuidado e bem-estar integral de seus pacientes. Localizada em um ambiente acolhedor e moderno, nossa clínica oferece uma ampla gama de serviços médicos para atender às necessidades individuais de cada pessoa.</p>
+        <p>é uma clínica médica dedicada ao cuidado e bem-estar integral de seus pacientes. Localizada em um ambiente acolhedor e moderno, nossa clínica oferece uma ampla gama de serviços médicos para atender às necessidades individuais de cada pessoa.</p>
 
-            <p>Com uma equipe de profissionais altamente qualificados e experientes, incluindo médicos especialistas em diversas áreas, enfermeiros e técnicos comprometidos, na Tua Saúde buscamos oferecer um atendimento personalizado e de qualidade.</p>
+        <p>Com uma equipe de profissionais altamente qualificados e experientes, incluindo médicos especialistas em diversas áreas, enfermeiros e técnicos comprometidos, na Tua Saúde buscamos oferecer um atendimento personalizado e de qualidade.</p>
 
-            <p>Nosso objetivo é fornecer cuidados abrangentes para promover a saúde e o equilíbrio de nossos pacientes, desde consultas médicas de rotina até tratamentos especializados. Além disso, valorizamos a prevenção e a educação em saúde, fornecendo orientações e informações para ajudar os pacientes a adotarem um estilo de vida saudável e tomar decisões informadas sobre sua saúde.</p>
+        <p>Nosso objetivo é fornecer cuidados abrangentes para promover a saúde e o equilíbrio de nossos pacientes, desde consultas médicas de rotina até tratamentos especializados. Além disso, valorizamos a prevenção e a educação em saúde, fornecendo orientações e informações para ajudar os pacientes a adotarem um estilo de vida saudável e tomar decisões informadas sobre sua saúde.</p>
 
-            <p>Na Tua Saúde, você encontrará uma variedade de serviços médicos, como consultas em várias especialidades, exames diagnósticos, acompanhamento de doenças crônicas, vacinação, cuidados pré-natais e pós-natais, tratamentos estéticos, fisioterapia e muito mais.</p>
+        <p>Na Tua Saúde, você encontrará uma variedade de serviços médicos, como consultas em várias especialidades, exames diagnósticos, acompanhamento de doenças crônicas, vacinação, cuidados pré-natais e pós-natais, tratamentos estéticos, fisioterapia e muito mais.</p>
 
-            <p>Nossa clínica também investe em tecnologia de ponta para garantir precisão nos diagnósticos e tratamentos, proporcionando aos pacientes uma experiência confiável e eficiente.</p>
+        <p>Nossa clínica também investe em tecnologia de ponta para garantir precisão nos diagnósticos e tratamentos, proporcionando aos pacientes uma experiência confiável e eficiente.</p>
 
-            <p>Na Tua Saúde, valorizamos a confiança e o respeito mútuo, priorizando o bem-estar e a satisfação dos pacientes. Estamos aqui para cuidar de você e ajudá-lo a alcançar uma vida saudável e feliz. Sua saúde está em boas mãos conosco.</p>
-        
+        <p>Na Tua Saúde, valorizamos a confiança e o respeito mútuo, priorizando o bem-estar e a satisfação dos pacientes. Estamos aqui para cuidar de você e ajudá-lo a alcançar uma vida saudável e feliz. Sua saúde está em boas mãos conosco.</p>
+
+        <div id="horario" class="horario">
+          <!-- cabeçalho da tabela -->
+
+          <table border="0">
+            <thead>
+              <tr>
+                <th>Serviços</th>
+                <th>Segunda a Sexta</th>
+                <th>Sábados</th>
+                <th>Feriados</th>
+              </tr>
+            </thead>
+            <!-- corpo da tabela -->
+            <tbody>
+              <tr>
+                <td>Clínica geral</td>
+                <td>08h - 19h</td>
+                <td>08h - 14h</td>
+                <td>08h - 14h</td>
+              </tr>
+              <tr>
+                <td>Psicologia</td>
+                <td>08h - 19h</td>
+                <td>08h - 14h</td>
+                <td>08h - 14h</td>
+
+              </tr>
+
+              <tr>
+                <td>Pediatria</td>
+                <td>08h - 19h</td>
+                <td>08h - 18h</td>
+                <td>-</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <td>Oftalmologia</td>
+              <td>08h - 19h</td>
+              <td>08h - 18h</td>
+              <td>-</td>
+            </tfoot>
+          </table>
+        </div>
+
       </div>
       <!-- Aqui vai o seu rodapé -->
       <div class="footer">
@@ -58,7 +102,7 @@
           <h2>Alguma duvida?</h2>
           <h5> entre em contato conosco</h5>
 
-          <div class="Logo_rodape">
+          <div id="contato" class="Logo_rodape">
             <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-twitter"></a>
             <a href="#" class="fa fa-google"></a>
