@@ -111,3 +111,18 @@ h5 {
 a:link {
   color: white;
 }
+
+.horario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+th,
+td {
+  padding: 20px;
+  border: 3px solid white;
+}
+
