@@ -126,3 +126,51 @@ td {
   border: 3px solid white;
 }
 
+#separacao {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+#Formulario {
+  width: 50%;
+  postion: left;
+}
+
+#iframe {
+  width: 100%;
+  postion: right;
+}
+
+button {
+  background-color: #0a0a23;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+  cursor: pointer;
+  justify-content: center;
+}
+form {
+  width: 100%;
+  background: #063d54;
+  padding: 4px;
+  text-align: left;
+}
+
+input {
+  width: 90%;
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type="textarea"] {
+  width: 90%;
+  height: 130px;
+}
